@@ -260,6 +260,7 @@ function countPassing(grades, passingGrade) {
   return count;
 }
 
+//
 // Generate complete report
 const average = calculateAverage(grades);
 const highest = findHighestGrade(grades);
@@ -271,5 +272,6 @@ console.log(`Average: ${average.toFixed(2)}`);
 console.log(`Highest: ${highest}`);
 console.log(`Lowest: ${lowest}`);
 console.log(`Passing students: ${passing} out of ${grades.length}`);
+
 
 
